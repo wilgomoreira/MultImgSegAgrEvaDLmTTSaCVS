@@ -19,7 +19,7 @@ The study includes:
 - Analysis of the models' generalization performance.
 
 <p align="center">
-  <img src="overall_paper.png" alt="">
+  <img src="training/overall_paper.png" alt="">
 </p>
 
 ## Installation
@@ -67,7 +67,7 @@ This paper also reveals that cross-validation by group, while providing a more r
 
 Each column corresponds to an image and its mask obtained from the models and modalities described in the figure
 <p align="center">
-  <img src="segm_imgs.png" alt="">
+  <img src="training/segm_imgs.png" alt="">
 </p>
 
 ## References
