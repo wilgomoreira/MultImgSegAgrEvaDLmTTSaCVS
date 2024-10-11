@@ -1,0 +1,120 @@
+----------------------------------------------------------
+SPECTRUM: RGB - MODEL: segnet - DATASET: t1
+Original ECE: 0.09879644001390402
+Calibrated ECE: 0.09879644001207563
+DIFFERENCE ECE: -1.828384665891747e-12
+----------------------------------------------------------
+SPECTRUM: RGB - MODEL: deeplab - DATASET: t1
+Original ECE: 0.1657298502076739
+Calibrated ECE: 0.16572985020954878
+DIFFERENCE ECE: 1.874889132835733e-12
+----------------------------------------------------------
+SPECTRUM: RGB - MODEL: segnet - DATASET: t2
+Original ECE: 0.051857056709994076
+Calibrated ECE: 0.051857056672453376
+DIFFERENCE ECE: -3.754069971551033e-11
+----------------------------------------------------------
+SPECTRUM: RGB - MODEL: deeplab - DATASET: t2
+Original ECE: 0.08379119492911524
+Calibrated ECE: 0.0837911948824678
+DIFFERENCE ECE: -4.664743591398235e-11
+----------------------------------------------------------
+SPECTRUM: RGB - MODEL: segnet - DATASET: t3
+Original ECE: 0.03827930330103299
+Calibrated ECE: 0.03827930331196267
+DIFFERENCE ECE: 1.0929680771543104e-11
+----------------------------------------------------------
+SPECTRUM: RGB - MODEL: deeplab - DATASET: t3
+Original ECE: 0.02058082298448755
+Calibrated ECE: 0.020580822980113576
+DIFFERENCE ECE: -4.373973405691345e-12
+----------------------------------------------------------
+SPECTRUM: NDVI - MODEL: segnet - DATASET: t1
+Original ECE: 0.04341473576671596
+Calibrated ECE: 0.04341473574575041
+DIFFERENCE ECE: -2.096554874153611e-11
+----------------------------------------------------------
+SPECTRUM: NDVI - MODEL: deeplab - DATASET: t1
+Original ECE: 0.0880336105333139
+Calibrated ECE: 0.08803361052660316
+DIFFERENCE ECE: -6.710743072346759e-12
+----------------------------------------------------------
+SPECTRUM: NDVI - MODEL: segnet - DATASET: t2
+Original ECE: 0.1567343742037969
+Calibrated ECE: 0.1567343743415131
+DIFFERENCE ECE: 1.3771619955527115e-10
+----------------------------------------------------------
+SPECTRUM: NDVI - MODEL: deeplab - DATASET: t2
+Original ECE: 0.15694070650566277
+Calibrated ECE: 0.15694070650359007
+DIFFERENCE ECE: -2.0727031202483204e-12
+----------------------------------------------------------
+SPECTRUM: NDVI - MODEL: segnet - DATASET: t3
+Original ECE: 0.06763701546372666
+Calibrated ECE: 0.06763701544510593
+DIFFERENCE ECE: -1.8620729957952165e-11
+----------------------------------------------------------
+SPECTRUM: NDVI - MODEL: deeplab - DATASET: t3
+Original ECE: 0.04495042413752402
+Calibrated ECE: 0.04495042415311813
+DIFFERENCE ECE: 1.5594109337158102e-11
+----------------------------------------------------------
+SPECTRUM: GNDVI - MODEL: segnet - DATASET: t1
+Original ECE: 0.029991041474511666
+Calibrated ECE: 0.029991041476822695
+DIFFERENCE ECE: 2.31102983971887e-12
+----------------------------------------------------------
+SPECTRUM: GNDVI - MODEL: deeplab - DATASET: t1
+Original ECE: 0.36638678968852145
+Calibrated ECE: 0.36638678968963
+DIFFERENCE ECE: 1.1085576900882188e-12
+----------------------------------------------------------
+SPECTRUM: GNDVI - MODEL: segnet - DATASET: t2
+Original ECE: 0.2026915868899031
+Calibrated ECE: 0.202691586930226
+DIFFERENCE ECE: 4.032288392075145e-11
+----------------------------------------------------------
+SPECTRUM: GNDVI - MODEL: deeplab - DATASET: t2
+Original ECE: 0.15035031400606444
+Calibrated ECE: 0.1503503139972451
+DIFFERENCE ECE: -8.819334151866087e-12
+----------------------------------------------------------
+SPECTRUM: GNDVI - MODEL: segnet - DATASET: t3
+Original ECE: 0.05232121151846113
+Calibrated ECE: 0.05232121153736715
+DIFFERENCE ECE: 1.890602258081131e-11
+----------------------------------------------------------
+SPECTRUM: GNDVI - MODEL: deeplab - DATASET: t3
+Original ECE: 0.058661581213726624
+Calibrated ECE: 0.05866158121185678
+DIFFERENCE ECE: -1.8698445569675926e-12
+----------------------------------------------------------
+SPECTRUM: EARLY_FUSION - MODEL: segnet - DATASET: t1
+Original ECE: 0.08281629165432774
+Calibrated ECE: 0.08281629164494328
+DIFFERENCE ECE: -9.384465426975908e-12
+----------------------------------------------------------
+SPECTRUM: EARLY_FUSION - MODEL: deeplab - DATASET: t1
+Original ECE: 0.03850628342901588
+Calibrated ECE: 0.03850628339465528
+DIFFERENCE ECE: -3.436059770045574e-11
+----------------------------------------------------------
+SPECTRUM: EARLY_FUSION - MODEL: segnet - DATASET: t2
+Original ECE: 0.25660404036925005
+Calibrated ECE: 0.2566040403974956
+DIFFERENCE ECE: 2.8245572547547226e-11
+----------------------------------------------------------
+SPECTRUM: EARLY_FUSION - MODEL: deeplab - DATASET: t2
+Original ECE: 0.13053746460732812
+Calibrated ECE: 0.1305374645815452
+DIFFERENCE ECE: -2.5782931345474935e-11
+----------------------------------------------------------
+SPECTRUM: EARLY_FUSION - MODEL: segnet - DATASET: t3
+Original ECE: 0.10725263348313638
+Calibrated ECE: 0.10725263365723905
+DIFFERENCE ECE: 1.7410267671991164e-10
+----------------------------------------------------------
+SPECTRUM: EARLY_FUSION - MODEL: deeplab - DATASET: t3
+Original ECE: 0.02816202425048494
+Calibrated ECE: 0.02816202425012695
+DIFFERENCE ECE: -3.5798794484342977e-13

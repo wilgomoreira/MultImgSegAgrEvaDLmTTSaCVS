@@ -1,0 +1,25 @@
+NÃO USAR A FUNÇÃO SOFTMAX
+
+NÃO FUNCIONOU:
+- Implementar KDE não deu certo. O programa nem roda quando chegar na função de calcular os valores.
+- O GMM apresentou valores iguais a zero quando usado no teste com e sem CRF
+
+TESTAR:
+- Retirar unary = unary_from_softmax(pred) e testar os logits direto
+- Usar o GMM no treino do modelo para ver se faz diferença.
+- Fazer logs para ver os resultados do teste, para saber se tem algo errado no CRF
+- Se não melhorar, usar uma versão antiga do código e adaptar para as novas coisas.
+- Diversificar o dataset para ver se os resultados melhoram
+
+----------------------------------------------------------------------------------------
+
+CRF
+
+ESTA FUNCIONANDO:
+- Usar numa lib para trabalhar com o CRF, em que agora posso treinar o modelo com dados de treino
+e testar depois com dados de teste
+
+TESTAR:
+- Novas modalidades
+- Melhorar o dataset para ver o comportamento
+ 

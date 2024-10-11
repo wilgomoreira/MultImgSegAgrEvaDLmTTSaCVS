@@ -1,0 +1,35 @@
+# Ignorar arquivos binários e de compilação
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Ignorar pastas de build e dependências
+/build/
+dist/
+node_modules/
+vendor/
+backup/
+runs/
+training/weights/
+
+
+# Ignorar arquivos temporários
+*.log
+*.tmp
+*.swp
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos grandes específicos
+/path/para/arquivo/grande.extensao
+
+# Ignorar arquivos de configuração de IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

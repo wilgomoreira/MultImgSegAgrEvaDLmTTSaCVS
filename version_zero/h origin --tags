@@ -1,0 +1,29 @@
+[33mcommit 22288da7e4923b897611c2d843401d3debc3ee6e[m[33m ([m[1;36mHEAD[m[33m)[m
+Author: Wilgo <wilgomoreira@gmail.com>
+Date:   Fri Dec 29 10:49:54 2023 +0000
+
+    with class and random images
+
+[33mcommit 76fbd9f2644d303c0e8aeafd4f31dbb4fdb1eddd[m[33m ([m[1;33mtag: v2.0[m[33m, [m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Wilgo <wilgomoreira@gmail.com>
+Date:   Fri Dec 29 09:25:02 2023 +0000
+
+    new version with class
+
+[33mcommit 086df79bf7448cd7137f2a2832fdf5947ef8ce21[m
+Author: Wilgo <wilgomoreira@gmail.com>
+Date:   Thu Dec 28 20:32:00 2023 +0000
+
+    get all the images that are passed
+
+[33mcommit 80eaf37c209945705703aff4600414263138eeca[m
+Author: Wilgo <wilgomoreira@gmail.com>
+Date:   Fri Dec 22 14:06:56 2023 +0000
+
+    with RGB visualization
+
+[33mcommit 5d78af801f87a852e98e83834fa40c8a8376ffde[m[33m ([m[1;33mtag: v1.0[m[33m)[m
+Author: Wilgo <wilgomoreira@gmail.com>
+Date:   Mon Dec 18 11:13:30 2023 +0000
+
+    initial version
