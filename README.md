@@ -9,6 +9,7 @@ This repository contains the code implementation for the paper titled "**Multisp
 4. [Datasets](#datasets)
 5. [Results](#results)
 6. [References](#references)
+7. [License](#license)
 
 ## Overview
 This project compares segmentation models like SegNet and DeepLabV3 applied to multispectral imagery (RGB, NDVI, GNDVI) for vineyard segmentation. It evaluates train-test split and different cross-validation techniques (standard k-fold and group k-fold), focusing on their performance in real-world agricultural tasks.
@@ -43,6 +44,10 @@ python training/main.py
 
 ## Dataset
 
+This project makes use of the dataset "DL Vineyard Segmentation Study." Please cite the original source if you use this dataset in your research or project:
+
+Cybonic, "DL Vineyard Segmentation Study," v1.0, GitHub, 2024. Available at: https://github.com/Cybonic/DL_vineyard_segmentation_study
+
 
 ## Results
 
@@ -50,8 +55,8 @@ The paper presents quantitative results on the segmentation performance of each 
 
 - Intersection over Union (IoU)
 
-This paper also reveals that cross-validation by group, while providing a more realistic measure of model generalization, exhibits the lowest performance metrics. This outcome suggests that when evaluating model generalization capabilities it is crucial to consider the size and diversity of the dataset.
-
+The results indicate that the early fusion representation achieves the highest performance across the various splitting protocols, compared to the single-input representations. The results also show that the train-test and random k-fold splitting approaches report similar results. However, when employing group k-fold the performance drops consistently across both models and the modalities. This indicates that the models lack strong generalization capabilities to new data and, on the other hand, that the train-test and random k-fold splitting protocols are appropriate to evaluate model within the same distribution but
+are less adequate for out-of-distribution assessment.
 
 | Model | Modality | Cross Val: 3 Folds | Cross Val: 4 Folds | Cross Val: 5 Folds | Cross Val: 6 Folds | Split: 70%-30% | Split: 75%-25% | Split: 80%-20% | Cross Val: Group |
 |----------|---------|-------------------|-------------------|-------------------|-------------------|----------------|----------------|----------------|------------------|
@@ -83,6 +88,20 @@ If you use this code in your research, please cite our paper:
 }
 ```
 For questions or collaborations, contact us at wilgo.moreira@isr.uc.pt.
+
+## License
+
+This project is licensed under the **Creative Commons Attribution 4.0 International License**. You are free to:
+
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially
+
+Under the following terms:
+
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+A copy of the full license is available at [Creative Commons License](https://creativecommons.org/licenses/by/4.0/).
+
 
 
 
